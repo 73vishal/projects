@@ -1,0 +1,94 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px; /* Adjust according to actual size */
+}
+
+.location-dropdown {
+    margin-right: 20px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+}
+
+.user-actions button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.user-actions .cart {
+    background-color: #4CAF50;
+    color: white;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.online-puja {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.puja-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+.puja-info {
+    max-width: 500px;
+    text-align: left;
+}
+
+.puja-info h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.puja-info p {
+    margin-bottom: 20px;
+}
+.highlight {
+    color: #FF4081;
+}
+
+.how-it-works h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
